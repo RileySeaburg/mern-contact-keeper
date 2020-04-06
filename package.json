@@ -1,45 +1,45 @@
 {
-  "name": "contact-keeper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefic client",
-    "clientinstall": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RileySeaburg/mern-contact-keeper.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RileySeaburg/mern-contact-keeper/issues"
-  },
-  "homepage": "https://github.com/RileySeaburg/mern-contact-keeper#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "config": "^3.3.1",
-    "express": "^4.17.1",
-    "express-validator": "^6.4.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.7"
-  },
-  "devDependencies": {
-    "concurrently": "^5.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1",
-    "nodemon": "^2.0.2",
-    "prettier": "2.0.2"
-  }
+    "name": "contact-keeper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client",
+        "clientinstall": "npm install --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RileySeaburg/mern-contact-keeper.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RileySeaburg/mern-contact-keeper/issues"
+    },
+    "homepage": "https://github.com/RileySeaburg/mern-contact-keeper#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "config": "^3.3.1",
+        "express": "^4.17.1",
+        "express-validator": "^6.4.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.7"
+    },
+    "devDependencies": {
+        "concurrently": "^5.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.1",
+        "nodemon": "^2.0.2",
+        "prettier": "2.0.2"
+    }
 }
