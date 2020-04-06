@@ -10,7 +10,7 @@ app.get("/", (req, res) => res.json({ msg: "This is an API" }));
 // Init Middleware
 app.use(express.json({ extended: false }));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // Define Routs
 app.use("/api/users", require("./routes/users"));
